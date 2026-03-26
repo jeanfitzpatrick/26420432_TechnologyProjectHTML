@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LM173 Submission</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: DarkSlateGrey;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: Arial, sans-serif;
+    }
+
+    h2, p {
+      margin: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    ul li {
+      float: left;
+    }
+
+    ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul li a:hover {
+      background-color: #111111;
+    }
+
+    body, h1, h2, h3, h4, h5 {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="w3-content" style="max-width:1900px; background-color:DarkSlateGrey;">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-32" style="background-color:DarkSlateGrey;">
+    <h1 style="color:GhostWhite;"><b>LM173 Submission</b></h1>
+    <h3 style="color:GhostWhite;">Modeling and Simulations</h3>
+  </header>
+
+  <ul>
+    <li><a class="active" href="#meeting-the-brief">Meeting the Brief</a></li>
+    <li><a class="active" href="#investigation">Investigation</a></li>
+    <li><a href="#plan-and-design">Plan and Design</a></li>
+    <li><a href="#create">Create</a></li>
+    <li><a href="#evaluation">Evaluation</a></li>
+  </ul>
+
+  <!-- Grid -->
+  <div class="w3-row" style="background-color:DarkSlateGrey;">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12" style="background-color:DarkSlateGrey;">
+
+      <!-- Meeting the Brief -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3 id="meeting-the-brief"><b>MEETING THE BRIEF:</b></h3>
+          <h5><span class="w3-opacity">March 2026</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <video width="600" height="400" controls>
+            <source src="Video1.mp4" type="video/mp4">
+			<source src="Video1.ogg" type="video/ogg">			
+          </video>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Investigation -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3 id="investigation"><b>INVESTIGATION:</b></h3>
+          <h5><span class="w3-opacity">March 2026</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>Modeling and Simulations is a computational modelling technique that uses a variety of different applications across many job types. It’s a method that mimics individual agent behaviour and how they interact with the environment to comprehend system behaviour overall. Agents are variables with distinct traits, behaviours and rules for making decisions. They function inside their immediate surroundings i.e their environment. The behaviour of other agents in the environment in which an agent functions can have an impact on the decisions and actions of the agent. Algorithms, rules and mathematical formulas are used to model agent-environment interactions/simulations. Modelling has many pros.</p>
+
+          <p>It allows for discrete models rather than continuous – many actions are “on” or “off” meaning they either happened or did not happen at all. It's ability to model heterogeneous data – a group that is diverse in nature. There is no need for previous understanding of the aggregate of the phenomenon. It can incorporate randomness into the model. And it allows you to see a model develop over time because the data is generated during the simulation. Although there are many pros, there are also some cons. It is not beneficial when dealing with homogeneous data – group with highly similar characteristics. And it is also computationally expensive.</p>
+
+          <div class="w3-row">
+            <div class="w3-col m8 s12"></div>
+            <div class="w3-col m4 w3-hide-small"></div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Plan and Design -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3 id="plan-and-design"><b>PLAN AND DESIGN:</b></h3>
+          <h5><span class="w3-opacity">March 2026</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>The initial idea was to create a model for something to do with online computer and/or remote controlled videogames. I am pretty interested in this topic as I grew up with a PlayStation and Xbox. I have always found the foundations and concept behind video games interesting. I enjoy the coding and the fundamental properties of video games also.</p>
+
+          <p>My idea is for a player to track their progress within a warfare type videogame and for the system to predict how well the player would do on their next round of that game. The system will ask the player to input their statistics from the last five rounds of the game and the model will then incorporate the different aspects of the game to figure out the players progress or regress. It will take which team won that round and the players left on each team into account and finish with how many rounds the player has previously won. The model will tell the player if they have progressed and how much by, or if they have regressed and how much by. The system will then tell the player how likely they are to win the next round.</p>
+
+          <div class="w3-row">
+            <div class="w3-col m8 s12"></div>
+            <div class="w3-col m4 w3-hide-small"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Create -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3 id="create"><b>CREATE:</b></h3>
+          <h5><span class="w3-opacity">March 2026</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h6>Key Milestones:</h6>
+            </div>
+          </div>
+
+          <p>I researched modelling and simulations pros and cons and decided on my project. I then drew a mind map showcasing all my initial thoughts for the simulation. After that, I began to plan my write up and website. I then created a flowchart for the model and wrote pseudocode for the main program. I then finished my Python code and graph code and began my website write up. Then I completed my project documentation including a website and I compiled a list of references and resources I used throughout the project. To finish, I completed a summary video for the meeting the brief section.</p>
+
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h6>Testing:</h6>
+            </div>
+          </div>
+
+          <p>When testing my simulation, I unit tested my project after every change to make sure everything worked properly. I tested while I was completing my code and changed whatever the problem was whether it was a sign error or an integer change. I firstly tested the conditions based on which team won. This worked well and I then went on to test the conditions based on how many players are left on each team. I initially tested while inputting random numbers as that simulated the different results players would get. The original code did not work as it had too high of a base number in general. I changed the number on the code and it worked perfectly. I then tested using actual data. There were three different game round results I tested on. The first set of data showed the players results and their personal statistics, the second set of data showed the same and so did the final set. The model acted correctly to each data set, and it showed the correct statistics for the inputted data. This showed me that the model was working correctly and was ready for public use.</p>
+
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h6>Problems Encountered:</h6>
+            </div>
+          </div>
+
+          <p>Throughout this project, I faced a series of problems. Some minor, some major, but all the same they taught me something new each time I met one. The initial idea was a difficult one to work with as it required not only a clear approach to the subject so that it makes sense, but also a sense of functions. I struggled with the foundations of the Model and Simulation, but eventually understood as I got some help and figured things out on my own as well. The first couple of problems were syntax errors in my code. Some signs needed changing or some numbers needed to change for the model to act accordingly. One problem I faced was the integer numbers. The base number was originally too high for the inputted data and so I changed it accordingly. I did not figure this out until I debugged the code and found the error. I changed the numbers and it worked perfectly. This was a vital area in my project as I needed to use the numbers that is in the code for my simulation to work correctly. I also faced layout problems with my HTML code and used the Inspect Element to figure out the problem. It was an unclosed div tab. I closed the tab and the layout was perfect. Overall, I'm glad I chose a video game concept as it resonated with me and in the end was a very enjoyable project to complete.</p>
+
+          <div class="w3-row">
+            <div class="w3-col m8 s12"></div>
+            <div class="w3-col m4 w3-hide-small"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Evaluation -->
+      <div class="w3-card w3-margin w3-white w3-margin-top">
+        <div class="w3-container w3-white">
+          <h5><span class="w3-opacity">January 2026</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <h3 id="evaluation"><b>Evaluation:</b></h3>
+          <p>This Modeling and Simulation ALT was a beneficial and interesting project to help me understand the positives of models and simulations. The video game choice of perspective was an interesting and intuitive decision and it definitely helped that I had some interest in this field of work. The simulation was a challenging and interesting piece to work with and the model turned out as best as I had hoped. Working on this project I improved on basic concepts like working with "if" and "elif" comparative operators, and I saw how the player might develop over time because the data is generated during the simulation. The graph at the end was very useful as it directly shows the progress or regress of the player and it is a lot more helpful than just a set of numbers. While simple, this project provides a solid foundation for understanding how modeling and simulations can be used in daily lives and could be expanded with additional features as we gain more experience.</p>
+
+          <h3><b>Future Iteration:</b></h3>
+          <p>If I had more time to complete the project, I would add a saving feature to save past data for the user to be able to compare their current and past data also, instead of just showing the general improvement. This would give the user a general idea to their improvement instead of just relying on the statistics.</p>
+
+          <div class="w3-row">
+            <div class="w3-col m8 s12"></div>
+            <div class="w3-col m4 w3-hide-small"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graph Image -->
+      <div class="w3-margin">
+        <img src="GraphImage.jpg" alt="Graph Image" style="width:100%">
+        <div class="w3-container">
+          <div class="w3-row">
+            <div class="w3-col m8 s12"></div>
+            <div class="w3-col m4 w3-hide-small"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graph Code -->
+      <div class="w3-margin">
+        <img src="GraphCode.jpg" alt="Graph Code" style="width:100%">
+        <div class="w3-container">
+          <div class="w3-row">
+            <div class="w3-col m8 s12"></div>
+            <div class="w3-col m4 w3-hide-small"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- References -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3><b>References:</b></h3>
+          <h5><span class="w3-opacity">May 2025</span></h5>
+          <p>
+            <a href="https://web.stanford.edu/class/archive/ee/ee392m/ee392m.1034/Lecture2_Models.pdf" target="_blank">Stanford.edu</a>
+            <a href="https://www.cs.mcgill.ca/~hv/classes/MS/MSconcepts.pdf" target="_blank">McGill School of Computer Science</a>
+          </p>
+        </div>
+
+        <div class="w3-container">
+          <div class="w3-row">
+            <div class="w3-col m8 s12"></div>
+            <div class="w3-col m4 w3-hide-small"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- END BLOG ENTRIES -->
+
+    <!-- Introduction menu -->
+    <div class="w3-col l4">
+
+      <!-- Mindmap -->
+      <div class="w3-card w3-margin w3-margin-top">
+        <img src="Mindmap.jpg" class="w3-round" style="width:100%" alt="Mindmap">
+        <div class="w3-container w3-white">
+          <h4><b>MINDMAP:</b></h4>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Flowchart -->
+      <div class="w3-card w3-margin w3-margin-top">
+        <img src="Flowchart1.1.jpg" class="w3-round" style="width:100%" alt="Flowchart 1">
+        <img src="Flowchart2.jpg" class="w3-round" style="width:100%" alt="Flowchart 2">
+        <div class="w3-container w3-white">
+          <h4><b>FLOWCHART:</b></h4>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Python Code -->
+      <div class="w3-card w3-margin w3-margin-top">
+        <img src="Python1.jpg" class="w3-round" style="width:100%" alt="Python Code 1">
+        <img src="Python2.jpg" class="w3-round" style="width:100%" alt="Python Code 2">
+        <img src="Python3.jpg" class="w3-round" style="width:100%" alt="Python Code 3">
+        <div class="w3-container w3-white">
+          <h4><b>PYTHON CODE:</b></h4>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Word Count -->
+      <div class="w3-card w3-margin w3-margin-top">
+        <div class="w3-container w3-white">
+          <h5><span class="w3-opacity">May 2025</span></h5>
+          <h4><b>WORD COUNT:</b></h4>
+
+          <table class="w3-table w3-bordered">
+            <tr>
+              <th>Section</th>
+              <th>Word Count</th>
+            </tr>
+            <tr>
+              <td>Investigation</td>
+              <td>209</td>
+            </tr>
+            <tr>
+              <td>Plan and Design/Code</td>
+              <td>199</td>
+            </tr>
+            <tr>
+              <td>Create</td>
+              <td>79</td>
+            </tr>
+            <tr>
+              <td>Evaluation/Problems Encountered</td>
+              <td>280</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>767</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+
+    </div>
+    <!-- END Introduction Menu -->
+
+  </div>
+  <!-- END GRID -->
+
+  <br>
+</div>
+<!-- END w3-content -->
+
+<!-- Footer -->
+<footer class="w3-container w3-white w3-padding-32 w3-margin-top">
+</footer>
+
+</body>
+</html>
